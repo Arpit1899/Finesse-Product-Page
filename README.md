@@ -4,7 +4,7 @@
 
 After clonning the repo please start the server before running the app, since all the product details are on the server
 
-### `npm install`
+#### `npm install`
 ### `node server.js`
 
 ### Replace the URL for the network in these two files with your IP address
