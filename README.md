@@ -1,5 +1,7 @@
 ## Product Page Redesign
-
+```bash
+This app runs the best on the mobile browser, inspect element does not give the best picture of the look and feel of the page
+```
 
 ## Preview
 
