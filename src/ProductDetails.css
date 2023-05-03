@@ -10,7 +10,6 @@
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
   border-radius: 9px;
   display: flex;
-  /* padding-left: 15px; */
   flex-direction: column;
 }
 
@@ -28,10 +27,8 @@
   height: 24px;
   margin-left: 16px;
   font-family: "Termina";
-  /* font-style: bold; */
   font-weight: 600;
   font-size: 16px;
-
   color: #000000;
 }
 
@@ -53,9 +50,7 @@
   letter-spacing: 0.3px;
   font-weight: 400;
   font-size: 14px;
-
   line-height: 18px;
-
   color: rgba(0, 0, 0, 0.64);
 }
 
@@ -96,13 +91,11 @@
 }
 
 .size-guide-container {
-  /* background-color: #000000; */
   display: flex;
   font-family: "Termina";
   font-size: 14px;
   flex-direction: column;
   justify-content: left;
-  /* margin-left: -10px; */
 }
 
 @font-face {
@@ -124,12 +117,8 @@
   margin-bottom: 10px;
   font-family: "Roboto" sans-serif;
   font-style: normal;
-  /* line-height: 18px; */
-  /* letter-spacing: 0.4px; */
   font-weight: 500;
-  /* font-size: 4vw; */
   margin-top: -10px;
-  /* line-height: 18px; */
   color: rgb(0, 0, 0);
 }
 
@@ -144,8 +133,6 @@
   letter-spacing: 0.4px;
   font-weight: 500;
   font-size: 3.47vw;
-  /* font-weight: 500; */
-  /* font-size: 16px; */
   line-height: 18px;
   color: rgb(0, 0, 0);
 }
@@ -207,8 +194,6 @@
 .recommendation-title {
   font-family: "Termina";
   font-size: 4.8vw;
-  /* margin-left: 16px; */
-  /* margin-top: 32px; */
   line-height: 1.5rem;
 }
 
@@ -228,8 +213,8 @@
   margin-left: 9px;
   height: 1px;
   background-color: #000000;
-  margin-top: 10px; /* Optional: adjust the margin as needed */
-  margin-bottom: 10px; /* Optional: adjust the margin as needed */
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .line2 {
@@ -237,8 +222,8 @@
 
   height: 1px;
   background-color: #000000;
-  margin-top: 32px; /* Optional: adjust the margin as needed */
-  margin-bottom: 20px; /* Optional: adjust the margin as needed */
+  margin-top: 32px;
+  margin-bottom: 20px;
 }
 .footer {
   margin-top: 10%;
@@ -299,7 +284,6 @@
   height: 42px;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
-  /* border: 1px solid #000000; */
   background-color: rgba(255, 255, 255, 0);
   align-items: center;
   overflow-x: auto;
@@ -309,7 +293,7 @@
 }
 
 .size-selector::-webkit-scrollbar {
-  display: none; /* For Chrome, Safari, and Edge */
+  display: none;
 }
 
 .size-button {
@@ -328,7 +312,6 @@
   color: #000000;
   border-radius: 1.5vw;
   border: 1px solid #000000;
-  /* box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08); */
   cursor: pointer;
 }
 
@@ -363,5 +346,5 @@
   border: none;
   font-size: 24px;
   cursor: pointer;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
