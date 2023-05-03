@@ -2,11 +2,10 @@
 
 
 ## Preview
-![img](https://i.postimg.cc/v8PmhrDc/ezgif-com-video-to-gif.gif)
+![img](https://i.postimg.cc/NGzvzpt2/IMG-4119.png)
 
 ![Video description](https://i.postimg.cc/v8PmhrDc/ezgif-com-video-to-gif.gif)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Getting Started
 
