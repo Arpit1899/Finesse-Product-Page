@@ -1,12 +1,22 @@
-# Getting Started with Create React App
+## Product Page Redesign
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Getting Started
 
-## Available Scripts
+After clonning the repo please start the server before running the app, since all the product details are on the server
 
-In the project directory, you can run:
+### `npm install`
+### `node server.js`
 
+### Replace the URL for the network in these two files with your IP address
+
+### `cd src/ProductDetails.js`
+
+### `cd src/Api.js`
+
+
+## This app runs the best on the mobile browser, inspect element does not give the best picture of the look and feel of the page
 ### `npm start`
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
