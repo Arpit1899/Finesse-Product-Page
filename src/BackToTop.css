@@ -1,0 +1,19 @@
+.back-to-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24.4vw;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  border-top: 0.27vw solid #ededed;
+  border-bottom: 0.27vw solid #ededed;
+  right: 20px;
+  bottom: 20px;
+  font-family: "Carbon";
+  font-size: 3.47vw;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 10;
+  transition: all 0.3s ease;
+}

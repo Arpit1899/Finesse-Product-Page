@@ -1,0 +1,62 @@
+.image-carousel {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  width: 95%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.carousel-image {
+  position: absolute;
+  top: -2%;
+  width: 89%;
+  height: 92%;
+  z-index: 0;
+  object-fit: cover; /* Center the image */
+}
+
+.carousel-navigation {
+  position: absolute;
+  top: 70%;
+  font-size: 2rem;
+  cursor: pointer;
+  user-select: none;
+  z-index: 2;
+}
+
+.prev {
+  left: 10px;
+  top: 35%;
+  color: #8e8f8f00;
+  transform: rotate(180deg);
+}
+
+.next {
+  top: 35%;
+  color: #8e8f8f00;
+  right: 10px;
+}
+
+.progress-bar-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: 150%;
+  margin-left: 24px;
+  z-index: 2;
+}
+
+.progress-bar {
+  background-color: #ffffff;
+  width: 10px;
+  height: 5px;
+  margin-right: 9px;
+  border-radius: 3px;
+}
+
+.progress-bar.active {
+  background-color: #333;
+}

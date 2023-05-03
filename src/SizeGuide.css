@@ -1,0 +1,33 @@
+.size-guide {
+  /* position: absolute; */
+  margin-top: 50px;
+  width: 100%;
+  /* top: 650px; */
+  /* margin-left: 17px; */
+  background-color: aliceblue;
+  z-index: 2000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.size-guide table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.size-guide th,
+.size-guide td {
+  border: 1px solid #ccc;
+  padding: 6px;
+  text-align: center;
+}
+
+.size-guide th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.size-guide tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

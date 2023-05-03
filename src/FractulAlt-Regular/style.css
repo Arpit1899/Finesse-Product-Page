@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Fractul Alt';
+    src: local('Fractul Alt Regular'), local('Fractul-Alt-Regular'),
+        url('FractulAlt-Regular.woff2') format('woff2'),
+        url('FractulAlt-Regular.woff') format('woff'),
+        url('FractulAlt-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

@@ -1,0 +1,20 @@
+.footer-menu__wrapper {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  /* flex-direction: row; */
+  margin-top: 32px;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  padding: 10px;
+  /* gap: 16px; */
+  font-size: 12px;
+  box-sizing: border-box;
+  margin-left: 1px;
+  background-color: #ffffff;
+}
+
+.footer-menu-items__wrapper {
+  display: flex;
+  flex-direction: column;
+}

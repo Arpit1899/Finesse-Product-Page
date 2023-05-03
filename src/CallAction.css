@@ -1,0 +1,218 @@
+.call-action {
+  position: absolute;
+  width: 350px;
+  height: 130px;
+  top: 535px;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 2.3vw;
+  display: flex;
+  padding-left: 20px;
+  align-items: baseline;
+  flex-direction: column;
+}
+.product-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+.product-title- {
+  font-family: "Termina";
+  font-weight: 600;
+  font-size: 4.2vw;
+  margin-bottom: 20px;
+  flex-grow: 1;
+  word-break: break-word;
+  color: #000000;
+}
+
+.price {
+  font-family: "Carbon";
+  /* font-style: normal; */
+  font-weight: 700;
+  font-size: 4.5vw;
+  margin-top: 0px;
+  color: #16161656;
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url("./FractulAlt-Regular/FractulAlt-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./inter-cufonfonts/Inter-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Termina";
+  src: url("./Termina\ Test/TerminaTest-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Carbon";
+  src: url("./Carbon\ Regular/Carbon Regular.ttf") format("truetype");
+}
+.size {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.size-selector-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.size-title {
+  font-family: "Inter";
+  font-size: 11px;
+  width: auto;
+  text-decoration: underline;
+  line-height: 14px;
+  text-align: left;
+  color: #3a3a3a;
+  cursor: pointer;
+}
+
+.size-selector {
+  display: inline-flex;
+  align-items: left;
+  width: 330px;
+  height: 42px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  /* border: 1px solid #000000; */
+  background-color: rgba(255, 255, 255, 0);
+  align-items: center;
+  overflow-x: auto;
+  gap: 0.8rem;
+  white-space: nowrap;
+}
+
+.size-selector::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
+}
+
+.size-button {
+  width: 41px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Carbon";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4vw;
+  line-height: 24px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 1.5vw;
+  border: 1px solid #000000;
+  /* box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08); */
+  cursor: pointer;
+}
+
+.size-button.selected {
+  color: #ffffff;
+  background: #000000;
+}
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.button {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  cursor: pointer;
+  color: #000000;
+}
+
+.Add-to-cart {
+  margin-top: -11px;
+  width: 140px;
+  margin-right: 10px;
+  border-radius: 3vw;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Add {
+  left: 10px;
+  font-family: "Carbon";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.Add-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.icon.liked {
+  color: red;
+}
+
+.size-button:focus,
+.icon:focus {
+  outline: none;
+}
+
+.size-button:active,
+.icon:active {
+  background-color: transparent;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 1000;
+}
+
+.Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 2rem;
+  border-radius: 4px;
+  outline: none;
+  z-index: 1000;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  left: 310px;
+  background: none;
+  border: none;
+  color: rgba(0, 0, 0, 0.75);
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,123 @@
+.carousel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  margin-top: 20px;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  margin-left: 12px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Hide the default scrollbar */
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+/* Custom scrollbar track (the container) */
+
+.carousel::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px; /* Change this value to move the scrollbar track up or down */
+  height: 4px;
+  width: 100%;
+  background-color: black;
+  z-index: 10;
+}
+
+.scrollbar-thumb {
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Change this value to move the scrollbar thumb up or down */
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+  z-index: 20;
+  transition: width 0.5s;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 60%;
+  background-color: #ffffff;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  text-align: left;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: start;
+}
+
+.product-image {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.product-title {
+  font-family: Carbon;
+  font-size: 4.2vw;
+  line-height: 1.2;
+  margin: 0;
+  margin-top: 2vw;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+}
+
+.product-price {
+  font-family: Carbon;
+  font-size: 4vw;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #454545;
+}
+
+.carousel-arrow {
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+  user-select: none;
+  margin: 0 1rem;
+}
+
+.carousel-arrow:hover {
+  color: #666;
+}
+
+.carousel-arrow-left {
+  color: #000;
+  width: 0%;
+}
+
+.carousel-arrow-right {
+  color: #000;
+  width: 10%;
+}
+
+.scrollbar-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+  height: 8px;
+  background-color: #000000;
+  z-index: 10;
+}
+

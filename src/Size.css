@@ -1,0 +1,44 @@
+/* src/SizeSelector.css */
+.size-selector {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-top: 10px;
+  margin-left: 4%;
+  padding: 10px;
+}
+
+.size-list {
+  display: flex;
+  height: 100%;
+
+  /* width: 50px;
+  height: 50px; */
+}
+
+.size-circle {
+  display: inline-flex;
+  font-size: small;
+  box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.229);
+  justify-content: center;
+  align-items: center;
+  /* border: 0.5px solid #0000007f; */
+  border-radius: 35%;
+  width: 45px;
+  height: 45px;
+  margin: 0 10px;
+  cursor: pointer;
+  user-select: none;
+  /* transition: all 0.2s ease; */
+}
+
+.size-selector::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.size-selector {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

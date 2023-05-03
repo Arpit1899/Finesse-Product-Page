@@ -1,0 +1,367 @@
+.product-details {
+  position: absolute;
+  width: 95%;
+  height: fit-content;
+  top: 635px;
+  padding-top: 10px;
+  z-index: 1;
+  text-align: left;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 9px;
+  display: flex;
+  /* padding-left: 15px; */
+  flex-direction: column;
+}
+
+.bar-icon {
+  width: 85px;
+  height: 4px;
+  position: absolute;
+  left: 145px;
+  border-radius: 10px;
+  background-color: #333;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.product-details h1 {
+  height: 24px;
+  margin-left: 16px;
+  font-family: "Termina";
+  /* font-style: bold; */
+  font-weight: 600;
+  font-size: 16px;
+
+  color: #000000;
+}
+
+.product-details h2 {
+  margin-left: 10px;
+  font-family: "Carbon";
+  font-weight: 800;
+  font-size: 4vw;
+  color: #000000;
+}
+
+.product-details p {
+  width: 312px;
+  margin-left: 16px;
+  left: 34px;
+  /* font-family: "Gotham"; */
+  font-style: normal;
+  letter-spacing: 1rem;
+  letter-spacing: 0.3px;
+  font-weight: 400;
+  font-size: 14px;
+
+  line-height: 18px;
+
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.shipping-details {
+  width: 330px;
+  text-align: left;
+  margin-top: -4px;
+  margin-left: 16px;
+  font-family: "Gotham";
+  font-style: normal;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.64);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.view-more {
+  width: 100px;
+  text-align: left;
+  margin-left: -7px;
+  border: none;
+  background-color: transparent;
+  color: rgb(59, 59, 59);
+  text-decoration: underline;
+}
+
+.view-size-guide {
+  width: 90%;
+  text-align: left;
+  margin-left: -4px;
+  border: none;
+  background-color: transparent;
+  color: rgb(59, 59, 59);
+  text-decoration: underline;
+}
+
+.size-guide-container {
+  /* background-color: #000000; */
+  display: flex;
+  font-family: "Termina";
+  font-size: 14px;
+  flex-direction: column;
+  justify-content: left;
+  /* margin-left: -10px; */
+}
+
+@font-face {
+  font-family: "Termina";
+  src: url("./Termina\ Test/TerminaTest-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Carbon";
+  src: url("./Carbon\ Regular/Carbon Regular.ttf") format("truetype");
+}
+
+.product-detail {
+  width: 330px;
+  margin-left: 16px;
+  left: 34px;
+  font-size: 3.47vw;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  /* line-height: 18px; */
+  /* letter-spacing: 0.4px; */
+  font-weight: 500;
+  /* font-size: 4vw; */
+  margin-top: -10px;
+  /* line-height: 18px; */
+  color: rgb(0, 0, 0);
+}
+
+.material-detail {
+  margin-top: 0px;
+  width: 312px;
+  margin-left: 16px;
+  left: 34px;
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+  font-size: 3.47vw;
+  /* font-weight: 500; */
+  /* font-size: 16px; */
+  line-height: 18px;
+  color: rgb(0, 0, 0);
+}
+.model-title {
+  display: flex;
+  align-items: center;
+  font-family: "Carbon";
+  font-size: 4vw;
+  padding: 5px;
+  font-weight: 800;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 18px;
+  border-radius: 5px;
+}
+
+.model-detail {
+  font-family: "Roboto", sans-serif;
+  margin-left: 16px;
+  font-size: 3.5vw;
+  font-weight: 500;
+}
+
+.shipping-title {
+  display: flex;
+  align-items: center;
+  font-family: "Carbon";
+  font-size: 4vw;
+  padding: 5px;
+  font-weight: 800;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.shipping-details-icon {
+  display: flex;
+  align-items: center;
+}
+
+.banner-image {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.recommendations {
+  display: flex;
+  flex-direction: row;
+  /* background-color: #afafaf; */
+  align-items: center;
+  margin-left: 16px;
+  margin-right: 10px;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.recommendation-title {
+  font-family: "Termina";
+  font-size: 4.8vw;
+  /* margin-left: 16px; */
+  /* margin-top: 32px; */
+  line-height: 1.5rem;
+}
+
+.product-detail-title {
+  font-family: "Termina";
+  font-size: 3.8vw;
+  margin-left: 16px;
+  line-height: 2rem;
+}
+
+.shipping-details-title {
+  padding-left: 10px;
+}
+
+.line {
+  width: 95%;
+  margin-left: 9px;
+  height: 1px;
+  background-color: #000000;
+  margin-top: 10px; /* Optional: adjust the margin as needed */
+  margin-bottom: 10px; /* Optional: adjust the margin as needed */
+}
+
+.line2 {
+  width: 99%;
+
+  height: 1px;
+  background-color: #000000;
+  margin-top: 32px; /* Optional: adjust the margin as needed */
+  margin-bottom: 20px; /* Optional: adjust the margin as needed */
+}
+.footer {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 60px;
+  align-items: center;
+}
+.logo-image {
+  width: 40%;
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+
+.product-title- {
+  font-family: "Termina";
+  font-weight: 600;
+  font-size: 4.2vw;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 16px;
+  flex-grow: 1;
+  word-break: break-word;
+  color: #000000;
+}
+
+.size {
+  display: flex;
+  gap: 10px;
+
+  margin-left: 16px;
+  align-items: center;
+}
+
+.size-selector-container {
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.size-title {
+  font-family: "Inter";
+  font-size: 11px;
+  width: auto;
+  text-decoration: underline;
+  line-height: 14px;
+  text-align: left;
+  color: #3a3a3a;
+  cursor: pointer;
+}
+
+.size-selector {
+  display: inline-flex;
+  align-items: left;
+  width: 340px;
+  height: 42px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  /* border: 1px solid #000000; */
+  background-color: rgba(255, 255, 255, 0);
+  align-items: center;
+  overflow-x: auto;
+  margin-top: 10px;
+  gap: 0.8rem;
+  white-space: nowrap;
+}
+
+.size-selector::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
+}
+
+.size-button {
+  width: 41px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Carbon";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4vw;
+  line-height: 24px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 1.5vw;
+  border: 1px solid #000000;
+  /* box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08); */
+  cursor: pointer;
+}
+
+.size-button.selected {
+  color: #ffffff;
+  background: #000000;
+}
+
+.Modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  outline: none;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.573);
+  z-index: 1000;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color:rgb(255, 255, 255);
+}

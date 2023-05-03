@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  width: 100%;
+  z-index: 3;
+  /* gap: 5rem; */
+  background-color: #ffffff;
+}
+
+.search-icon-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.search-icon {
+  position: absolute;
+  color: #000000;
+  cursor: pointer;
+  margin-right: 88%;
+}
+
+.logo {
+  width: 95px;
+  height: auto;
+}
+
+.cart-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.cart-counter1 {
+  position: absolute;
+  font-family: "Carbon";
+  font-size: 18px;
+  font-weight: 650;
+  color: #000000;
+  margin-left: 77%;
+}
+
+@font-face {
+  font-family: "Carbon";
+  src: url("./Carbon\ Regular/Carbon Regular.ttf") format("truetype");
+}

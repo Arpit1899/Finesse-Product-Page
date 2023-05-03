@@ -1,0 +1,53 @@
+.white-container {
+  background-color: white;
+  width: 100%;
+  height: 557px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.product-details {
+  text-align: left;
+  top: 15px; /* Adjust the value to change the distance from the top */
+  left: 25px;
+  justify-content: center; /* Adjust the value to change the distance from the left */
+  /* Adjust the value for font size */
+  font-weight: bold; /* Adjust the value for font weight */
+  /* Add any other desired styles */
+}
+
+.product-details p {
+  margin: 0;
+  font-family: "Inconsolata", monospace;
+  font-size: 13px;
+  padding: 5px;
+  
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.color-selection {
+  top: 20px; /* Adjust this value to position the color picker vertically */
+  left: 50%;
+  gap: 1rem;
+  justify-content: center;
+  display: flex;
+}
+
+.color-option {
+  width: 25px;
+  height: 25px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+  position: relative; /* Add this line to position the tick icon */
+}
+
+.color-option-check {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #72727269;
+  font-size: 2.5rem;
+}
