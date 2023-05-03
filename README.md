@@ -9,14 +9,20 @@
 
 After clonning the repo please start the server before running the app, since all the product details are on the server
 
-#### `npm install`
-#### `node server.js`
+```bash
+npm install
+node server.js
+```
+
 
 ### Replace the URL for the network in these two files with your IP address
 
-#### `cd src/ProductDetails.js`
+```bash
+Replace the URL for the network in these two files with your IP address
 
-#### `cd src/Api.js`
+cd src/ProductDetails.js
+cd src/Api.js
+```
 
 
 ### This app runs the best on the mobile browser, inspect element does not give the best picture of the look and feel of the page
