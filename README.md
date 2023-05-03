@@ -4,7 +4,7 @@ This app runs the best on the mobile browser, inspect element does not give the 
 ```
 
 ## Preview
-#### Please find the Full Page Screenshot of the page in repo as Fullpage.pdf
+#### Please find the Full Page Screenshot of the page as Fullpage.pdf
 
 
 #### Video Link : https://youtube.com/shorts/wIdqZ7DpXDk?feature=share
