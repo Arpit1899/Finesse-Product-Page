@@ -6,6 +6,7 @@
 
 ![Video description](https://i.postimg.cc/v8PmhrDc/ezgif-com-video-to-gif.gif)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Getting Started
 
@@ -26,7 +27,9 @@ cd src/Api.js
 
 
 ### This app runs the best on the mobile browser, inspect element does not give the best picture of the look and feel of the page
-### `npm start`
+
+
+
 
 
 Runs the app in the development mode.\
