@@ -2,7 +2,7 @@
 
 
 ## Preview
-![img](https://postimg.cc/fk9ZT0cN)
+![img]([https://postimg.cc/fk9ZT0cN](https://i.postimg.cc/v8PmhrDc/ezgif-com-video-to-gif.gif))
 
 
 ### Getting Started
