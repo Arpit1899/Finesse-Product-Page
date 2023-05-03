@@ -15,8 +15,6 @@ node server.js
 ```
 
 
-### Replace the URL for the network in these two files with your IP address
-
 ```bash
 Replace the URL for the network in these two files with your IP address
 
