@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "./ProductCardCarousel.css";
-import image2 from "./product4.webp";
 const ProductCard = ({ product }) => (
   <div className="product-card">
     <img src={product.imageUrl} alt={product.title} className="product-image" />
@@ -12,7 +11,7 @@ const ProductCard = ({ product }) => (
   </div>
 );
 
-const ProductCardCarousel = ({products}) => {
+const ProductCardCarousel = ({ products }) => {
   const scrollRef = React.useRef(null);
 
   const handleScroll = (direction) => {

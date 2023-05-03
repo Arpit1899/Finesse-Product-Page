@@ -1,12 +1,11 @@
 import React from "react";
 import "./FloatingButton.css";
-import { UilArrowRight } from "@iconscout/react-unicons";
 import { motion } from "framer-motion";
 
 const FloatingButton = ({ onAddToCart, price, selectedSize }) => {
-  const productId = 1; // This should be the actual product ID from your data
-  const productName = "Sandy Tie Dye Print Dress"; // This should be the actual product name from your data
-  const quantity = 1; // You can update this if you want to allow users to select a quantity
+  const productId = 1;
+  const productName = "Sandy Tie Dye Print Dress";
+  const quantity = 1;
 
   const handleButtonClick = async () => {
     if (!selectedSize) {
