@@ -4,6 +4,8 @@
 ## Preview
 ![img](https://i.postimg.cc/v8PmhrDc/ezgif-com-video-to-gif.gif)
 
+![Video description](https://i.postimg.cc/v8PmhrDc/ezgif-com-video-to-gif.gif)
+
 
 ### Getting Started
 
