@@ -1,5 +1,10 @@
 ## Product Page Redesign
 
+
+## Preview
+![img](https://i.postimg.cc/v8PmhrDc/ezgif-com-video-to-gif.gif)
+
+
 ### Getting Started
 
 After clonning the repo please start the server before running the app, since all the product details are on the server
